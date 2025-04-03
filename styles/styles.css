@@ -127,9 +127,27 @@
   border-radius: 36px;
 }
 
+.TC304-frth-banner-video video {
+  width: 100%;
+  display: flex;
+  border-radius: 36px;
+  margin-bottom: 28px;
+}
+
+.TC304-video-container iframe {
+  display: flex;
+  width: 100%;
+  height: 900px;
+  border-radius: 36px;
+}
+
 @media (max-width: 1360px) {
   .TC304-features-cards {
     gap: 20px;
+  }
+
+  .TC304-video-container iframe {
+    height: 600px;
   }
 }
 
@@ -189,6 +207,10 @@
   .TC304-ffth-banner,
   .TC304-video-container {
     padding: 0px 10px;
+  }
+
+  .TC304-video-container iframe {
+    height: 400px;
   }
 }
 
